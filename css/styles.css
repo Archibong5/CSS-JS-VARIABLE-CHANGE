@@ -1,0 +1,45 @@
+html{
+  background: var(--bcolor);
+  color: white;
+  text-align: center;
+}
+
+body{
+  margin: 0;
+}
+h1{
+  font-size: 6em;
+}
+
+.control label{
+  font-size: 4em;
+  margin: 20px 0 0 50px;
+}
+
+img{
+  width: 600px;
+  height: 400px;
+  margin: 100px 0 100px 0;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  transform: rotate(var(--rotate));
+  border-radius: var(--border)
+}
+
+:root{
+  --spacing: 20px;
+  --blur: 10px;
+  --base: #8D9EFF;
+  --border: 10%;
+  --rotate: 10deg;
+  --bcolor: black;
+}
+
+.hl{
+  color: var(--base);
+}
+
+input[type=range]{
+  accent-color: var(--base)
+}
